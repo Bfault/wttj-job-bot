@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+enterprises.json
+motivation_letter.txt
+blacklist.txt

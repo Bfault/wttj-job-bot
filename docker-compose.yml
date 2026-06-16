@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  wttj-auto-apply:
+    build: .
+    image: wttj-auto-apply
+    container_name: wttj-auto-apply
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
