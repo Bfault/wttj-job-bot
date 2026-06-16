@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>WTTJ Auto-Apply</h1>
+  <h1>WTTJ Job Bot</h1>
   <p>
     <strong>Automate your job hunt on Welcome to the Jungle</strong>
   </p>
@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white"/>
     <img src="https://img.shields.io/badge/Playwright-45BA4B?style=flat-square&logo=playwright&logoColor=white"/>
     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-    <img src="https://github.com/Bfault/wttj-auto-apply/actions/workflows/ci.yml/badge.svg"/>
+    <img src="https://github.com/Bfault/wttj-job-bot/actions/workflows/ci.yml/badge.svg"/>
     <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square"/>
   </p>
 </div>
@@ -49,7 +49,7 @@ docker compose run --rm wttj-auto-apply scrape
 ```
 usage: main.py [-h] [-v] {scrape,apply,all}
 
-WTTJ Auto-Apply — scrape companies and send spontaneous applications
+WTTJ Job Bot — scrape companies and send spontaneous applications
 
 positional arguments:
   {scrape,apply,all}
